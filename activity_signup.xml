@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="20dp" android:background="@drawable/background_gradient">
+    <EditText android:id="@+id/Signup_Username" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Username" android:layout_marginTop="20dp" android:padding="15dp" android:background="@drawable/edit_text_background" android:inputType="text"/>
+    <EditText android:id="@+id/Signup_Password" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Password" android:layout_marginTop="10dp" android:padding="15dp" android:background="@drawable/edit_text_background" android:inputType="textPassword"/>
+    <Spinner android:id="@+id/Signup_RoleSpinner" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="20dp" android:background="@drawable/edit_text_background" android:entries="@array/user_roles"/>
+    <Button android:id="@+id/Signup_signupButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:background="@drawable/button_background" android:padding="12dp" android:text="Sign Up" android:textColor="#FFFFFF" android:textSize="18sp" android:textStyle="bold"/>
+    <Button android:id="@+id/Signup_backButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:background="@drawable/button_background" android:padding="12dp" android:text="Back" android:textColor="#FFFFFF" android:textSize="18sp" android:textStyle="bold"/>
+</LinearLayout>
